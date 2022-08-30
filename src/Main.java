@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 100; // Начальный баланс
-        int y = 2764; // Сумма пополнения
-        int z = y / 100;
-        int a;
+        int balance = 100;
+        int sum = 2764;
+        int total = sum / 100;
+        int result;
         if (y >= 1000) {
-            a = (z + x + y);
+            result) = (total + balance + sum);
         } else {
-            a = (x + y);
+            result) = (balance + sum);
         }
-        System.out.println("Баланс: " + a);
+        System.out.println("Баланс: " + result);
     }
 }
