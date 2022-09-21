@@ -4,10 +4,10 @@ public class Main {
         int sum = 2764;
         int total = sum / 100;
         int result;
-        if (y >= 1000) {
-            result) = (total + balance + sum);
+        if (sum >= 1000) {
+            result = (total + balance + sum);
         } else {
-            result) = (balance + sum);
+            result = (balance + sum);
         }
         System.out.println("Баланс: " + result);
     }
